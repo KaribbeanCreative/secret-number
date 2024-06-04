@@ -50,6 +50,10 @@ As part of my learning of JavaScript and Dom Manipulation. This exercise was cre
 
 ## 🔗 Links
 
+[Secret Number Live Site](https://secret-number.pages.dev/)
+
+
+
 ## 📦 Useful resources
 
 
