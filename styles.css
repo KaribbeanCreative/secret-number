@@ -1,0 +1,129 @@
+/*
+    Author : Karibbean Creative
+    Date : 03.06.2024
+    Version : 1.0
+*/
+
+@import url('https://fonts.googleapis.com/css?family=Press+Start+2P&display=swap');
+
+:root {
+    --primary-color: #eee;
+    --secondary-color: #222;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-family: 'Press Start 2P', sans-serif;
+    color: var(--primary-color);
+    background-color: var(--secondary-color);
+}
+
+header {
+    position: relative;
+    height: 35vh;
+    top: 5rem;
+    border-bottom: 7px solid var(--primary-color);
+}
+
+main {
+    height: 65vh;
+    color: var(--primary-color);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#left {
+    width: 52rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#right {
+    width: 52rem;
+    font-size: 2rem;
+}
+
+
+h1 {
+    width: 100%;
+    position: absolute;
+    font-size: 4rem;
+    text-align: center;
+    top: 52%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.between {
+    position: absolute;
+    font-size: 1.4rem;
+    top: 2rem;
+    right: 2rem;
+}
+
+.again {
+    position: absolute;
+    top: 2rem;
+    left: 2rem;
+}
+
+.number {
+    position: absolute;
+    width: 15rem;
+    padding: 3rem 0rem;
+    font-size: 6rem;
+    text-align: center;
+    color: var(--secondary-color);
+    background-color: var(--primary-color);
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%, 50%);
+}
+
+.guess {
+    width: 25rem;
+    padding: 2.5rem;
+    margin-bottom: 3rem;
+    font-size: 5rem;
+    color: inherit;
+    text-align: center;
+    font-family: inherit;
+    background: none;
+    border: 4px solid var(--primary-color);
+    display: block;
+}
+
+.message {
+    margin-bottom: 8rem;
+    height: 3rem;
+}
+
+.label-score {
+    margin-bottom: 2rem;
+}
+
+.btn {
+    border: none;
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+    font-size: 2rem;
+    font-family: inherit;
+    padding: 2rem 3rem;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: #ccc;
+}
